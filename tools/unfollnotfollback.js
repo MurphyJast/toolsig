@@ -24,7 +24,7 @@ const { chalk, inquirer, _, fs, instagram, print, delay } = require("./index.js"
         {
             type: "password",
             name: "password",
-            mask: "*",
+            mask: " ",
             message: "Input password:",
             validate: (val) => val.length != 0 || "Please input password!",
         },
@@ -99,3 +99,4 @@ const { chalk, inquirer, _, fs, instagram, print, delay } = require("./index.js"
     }
 })();
 //by 1dcea8095a18ac73b764c19e40644b52 116 111 111 108 115 105 103  118 51
+ 
